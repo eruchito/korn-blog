@@ -1,0 +1,6 @@
+// src/styles/_variables.scss
+$primary-color: #6f42c1; // violeta oscuro
+$background-color: #000000; // negro
+$text-color: #ffffff; // blanco
+$link-color: $primary-color;
+$link-hover-color: darken($primary-color, 10%);

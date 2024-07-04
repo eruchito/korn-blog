@@ -1,0 +1,32 @@
+// src/styles/Home.scss
+
+@import 'styles';
+
+.home {
+  padding: 20px;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: $primary-color; // Usa la variable $primary-color correctamente
+    animation: fadeInDown 1s ease;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: $text-color;
+  }
+
+  // Ejemplo de animación CSS
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
